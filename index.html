@@ -6,12 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Apple Packet Price Planner</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<h1>Apple Packet Price Planner</h1>
 	<div class="container grid">
-		<h2>Apple buying data</h2>
+		<h1 class="main-heading">Apple Packet Price Planner</h1>
+		<h2 class="section-heading">Apple buying data</h2>
 
 		<label for="box-cost">Cost price for a box of apples</label>
 		<input type="number" name="" id="box-cost">
@@ -28,19 +30,19 @@
 		<div></div>
 		<button type="button" id="calculate-button">Calculate</button>
 
-		<h2>Apple price calculations</h2>
+		<h2 class="section-heading">Apple price calculations</h2>
 
 		<span>Number of packets</span>
-		<span id="packet-count"></span>
+		<span class="output-value" id="packet-count"></span>
 
 		<span>Cost price per apple</span>
-		<span id="apple-cost"></span>
+		<span class="output-value" id="apple-cost"></span>
 		
 		<span>Cost price per packet</span>
-		<span id="packet-cost"></span>
+		<span class="output-value" id="packet-cost"></span>
 
 		<span>Recommended packet price</span>
-		<span id="packet-price"></span>
+		<span class="output-value" id="packet-price"></span>
 	</div>
 </body>
 
